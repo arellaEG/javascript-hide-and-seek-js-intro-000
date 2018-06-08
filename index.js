@@ -18,7 +18,7 @@ function deepestChild(){
   var tree=document.getElementById('grand-node')
   var next=tree.children[0]
   while (next){
-  tree=next  
+  tree=next
   }
   return next
 }
