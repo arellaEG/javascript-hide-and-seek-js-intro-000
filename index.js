@@ -20,5 +20,5 @@ function deepestChild(){
   for (let i=0; i<deep.length; i++){
     str=str+' div'
   }
-  return document.querySelector('div#grand-node div'+str)
+  return str, document.querySelector('div#grand-node div'+str)
 }
