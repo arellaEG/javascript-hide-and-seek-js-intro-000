@@ -21,9 +21,4 @@ function deepestChild(){
     str=str+'div'
   }
   return document.querySelectorAll('div#grand-node div'+str)
-  
-
-  }
-
-
 }
