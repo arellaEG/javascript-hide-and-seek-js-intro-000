@@ -19,6 +19,7 @@ function deepestChild(){
   var next=tree.children[0]
   while (next){
   tree=next
+  next=tree.children[0]
   }
-  return next
+  return tree
 }
